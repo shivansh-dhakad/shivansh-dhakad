@@ -72,14 +72,6 @@
 
 <br/>
 
-## 📊 Profile Views
-
-<div align="center">
-<img src="https://komarev.com/ghpvc/?username=shivansh-dhakad&color=00D9FF&style=flat-square&label=Profile+Views" />
-</div>
-
-<br/>
-
 <div align="center">
 <i>⭐️ Thanks for stopping by — check out my pinned repos above, and feel free to connect on LinkedIn!</i>
 </div>
