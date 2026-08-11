@@ -55,83 +55,30 @@
 
 <br/>
 
-## 🤖 Machine Learning / Data Science Projects
-
-<div align="center">
-
-<a href="https://github.com/shivansh-dhakad/CardioShield-AI">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=CardioShield-AI&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/Autoval">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=Autoval&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/PriceIntel">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=PriceIntel&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/Driver-Drowsiness">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=Driver-Drowsiness&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/CropGuard-AI">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=CropGuard-AI&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/movie-recommendation-system">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=movie-recommendation-system&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
-<details>
-<summary><b>📂 More ML / Data Analysis repos</b></summary>
-<br/>
-
-| Project | What it does |
-|---|---|
-| [customer-segmentation](https://github.com/shivansh-dhakad/customer-segmentation) | Clustering-based customer segmentation |
-| [customer-category-classification-using-machine-learning](https://github.com/shivansh-dhakad/customer-category-classification-using-machine-learning) | Classifies customers into categories using ML |
-| [Logistics-Supply-Chain-Risk-Classification-Using-Machine-Learning](https://github.com/shivansh-dhakad/Logistics-Supply-Chain-Risk-Classification-Using-Machine-Learning) | Predicts supply chain risk levels |
-| [mobile-price-prediction](https://github.com/shivansh-dhakad/mobile-price-prediction) | Predicts mobile phone price range from specs |
-| [bike_prediction_model](https://github.com/shivansh-dhakad/bike_prediction_model) | Bike rental demand prediction model |
-| [Data-analysis-and-ML-website](https://github.com/shivansh-dhakad/Data-analysis-and-ML-website) | Web platform for data analysis & ML demos |
-
-</details>
+## 📌 Pinned Projects
+<!-- PINNED:START -->
+| Project | What it does | Stack |
+|---|---|---|
+| 📱 [mobile-price-prediction](https://github.com/shivansh-dhakad/mobile-price-prediction) | Predicts mobile phone price range from specs | `Jupyter Notebook` |
+| 🫀 [CardioShield-AI](https://github.com/shivansh-dhakad/CardioShield-AI) | Cardiovascular risk prediction system | `Jupyter Notebook` |
+| 📚 [Lumina](https://github.com/shivansh-dhakad/Lumina) | Fully local, private AI-powered study assistant — chat with any document or URL, no cloud, no API keys | `JavaScript` |
+<!-- PINNED:END -->
 
 <br/>
 
-## 🚀 Full-Stack / AI Applications
+## ⚡ Recent Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<br/>
+
+## 📊 Profile Views
 
 <div align="center">
-
-<a href="https://github.com/shivansh-dhakad/Lumina">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=Lumina&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/smartkhata">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=smartkhata&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/ResQGrid">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=ResQGrid&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/Krishimitra">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=Krishimitra&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/NibandhAI">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=NibandhAI&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/shivansh-dhakad/Smritix">
-<img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=shivansh-dhakad&repo=Smritix&theme=tokyonight&hide_border=true" />
-</a>
-
+<img src="https://komarev.com/ghpvc/?username=shivansh-dhakad&color=00D9FF&style=flat-square&label=Profile+Views" />
 </div>
 
 <br/>
-
-## 🏆 Trophies
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=shivansh-dhakad&theme=tokyonight&no-frame=true&row=1&column=6" />
-</div>
-
-<br/>
-
 
 <div align="center">
 <i>⭐️ Thanks for stopping by — check out my pinned repos above, and feel free to connect on LinkedIn!</i>
