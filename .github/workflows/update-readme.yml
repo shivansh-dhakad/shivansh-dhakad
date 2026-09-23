@@ -31,7 +31,8 @@ jobs:
       - name: Sync pinned projects table
         run: python update_pinned.py
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Uses GH_PAT if you add it as a repo secret, otherwise falls back to the default token
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
 
       - name: Commit and push if changed
         run: |
