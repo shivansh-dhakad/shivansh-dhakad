@@ -13,16 +13,16 @@
 
 <br/>
 
-## 🧠 About Me
+## About Me
 
-- 📍 Based in **Bhopal, India**
-- 🔭 Focused on **Data Science, Machine Learning & AI-powered applications**
-- 🌱 Building end-to-end projects — from ML models to full-stack web apps
-- ⚡ 22 public repos and counting — mostly ML pipelines, prediction systems, and practical tools
+- Based in **Bhopal, India**
+- Focused on **Data Science, Machine Learning & AI-powered applications**
+- Building end-to-end projects — from ML models to full-stack web apps
+- 22 public repos and counting — mostly ML pipelines, prediction systems, and practical tools
 
 <br/>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -32,7 +32,7 @@
 
 <br/>
 
-## 🔥 Contribution Activity
+##  Contribution Activity
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=shivansh-dhakad&theme=tokyo-night&hide_border=true" width="100%"/>
@@ -40,25 +40,25 @@
 
 <br/>
 
-## 📌 Pinned Projects
+## Pinned Projects
 <!-- PINNED:START -->
 | Project | What it does | Stack |
 |---|---|---|
-| 📱 [mobile-price-prediction](https://github.com/shivansh-dhakad/mobile-price-prediction) | Predicts mobile phone price range from specs | `Jupyter Notebook` |
-| 📚 [Lumina](https://github.com/shivansh-dhakad/Lumina) | Fully local, private AI-powered study assistant — chat with any document or URL, no cloud, no API keys | `JavaScript` |
-| 📦 [Krishimitra](https://github.com/shivansh-dhakad/Krishimitra) | KrishiMitra is an intelligent, multi-featured web platform designed to assist farmers in making data-driven agricultural decisions. It acts as a complete farming assistant that guides farmers from sowing to harvest, ensuring smarter decisions and better yields. | `HTML` |
-| 📦 [ResQGrid](https://github.com/shivansh-dhakad/ResQGrid) | ResQGrid is a community-powered emergency response platform for India. It connects individuals, volunteers, NGOs, and community organizations on a shared map so that nearby emergencies, resources, and SOS alerts can be seen and acted on in real time. | `JavaScript` |
-| 📦 [oil-spill-detection-and-vessel-identification](https://github.com/shivansh-dhakad/oil-spill-detection-and-vessel-identification) | AI-Powered Satellite Oil Spill Detection & Maritime Vessel Attribution Platform | `Python` |
+|  [mobile-price-prediction](https://github.com/shivansh-dhakad/mobile-price-prediction) | Predicts mobile phone price range from specs | `Jupyter Notebook` |
+| [Lumina](https://github.com/shivansh-dhakad/Lumina) | Fully local, private AI-powered study assistant — chat with any document or URL, no cloud, no API keys | `JavaScript` |
+|  [Krishimitra](https://github.com/shivansh-dhakad/Krishimitra) | KrishiMitra is an intelligent, multi-featured web platform designed to assist farmers in making data-driven agricultural decisions. It acts as a complete farming assistant that guides farmers from sowing to harvest, ensuring smarter decisions and better yields. | `HTML` |
+|  [ResQGrid](https://github.com/shivansh-dhakad/ResQGrid) | ResQGrid is a community-powered emergency response platform for India. It connects individuals, volunteers, NGOs, and community organizations on a shared map so that nearby emergencies, resources, and SOS alerts can be seen and acted on in real time. | `JavaScript` |
+|  [oil-spill-detection-and-vessel-identification](https://github.com/shivansh-dhakad/oil-spill-detection-and-vessel-identification) | AI-Powered Satellite Oil Spill Detection & Maritime Vessel Attribution Platform | `Python` |
 <!-- PINNED:END -->
 
 <br/>
 
-## ⚡ Recent Activity
+## Recent Activity
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 
 <br/>
 
 <div align="center">
-<i>⭐️ Thanks for stopping by — check out my pinned repos above, and feel free to connect on LinkedIn!</i>
+<i> Thanks for stopping by — check out my pinned repos above, and feel free to connect on LinkedIn!</i>
 </div>
