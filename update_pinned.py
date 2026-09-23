@@ -1,42 +1,101 @@
-name: Update README
+import os
+import re
+import sys
 
-on:
-  schedule:
-    - cron: "0 3 * * *"   # daily at 3:00 AM UTC (~8:30 AM IST)
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+import requests
 
-permissions:
-  contents: write
+USERNAME = "shivansh-dhakad"
+TOKEN = os.environ.get("GH_TOKEN")
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+# Hand-written descriptions take priority over the repo's GitHub description.
+OVERRIDES = {
+    "mobile-price-prediction": "Predicts mobile phone price range from specs",
+    "CardioShield-AI": "Cardiovascular risk prediction system",
+    "Lumina": "Fully local, private AI-powered study assistant — chat with any document or URL, no cloud, no API keys",
+}
 
-      - name: Update recent activity section
-        uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+ICONS = {
+    "mobile-price-prediction": "📱",
+    "CardioShield-AI": "🫀",
+    "Lumina": "📚",
+}
+DEFAULT_ICON = "📦"
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+QUERY = """
+query($login: String!) {
+  user(login: $login) {
+    pinnedItems(first: 6, types: REPOSITORY) {
+      nodes {
+        ... on Repository {
+          name
+          url
+          description
+          primaryLanguage { name }
+        }
+      }
+    }
+  }
+}
+"""
 
-      - name: Install dependencies
-        run: pip install requests
 
-      - name: Sync pinned projects table
-        run: python update_pinned.py
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+def fetch_pinned():
+    if not TOKEN:
+        sys.exit("GH_TOKEN is not set")
+    resp = requests.post(
+        "https://api.github.com/graphql",
+        json={"query": QUERY, "variables": {"login": USERNAME}},
+        headers={"Authorization": f"Bearer {TOKEN}"},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    if "errors" in data:
+        sys.exit(f"GraphQL error: {data['errors']}")
+    return data["data"]["user"]["pinnedItems"]["nodes"]
 
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --staged --quiet || git commit -m "chore: auto-update README [skip ci]"
-          git push
+
+def build_table(repos):
+    lines = [
+        "| Project | What it does | Stack |",
+        "|---|---|---|",
+    ]
+    for r in repos:
+        name = r["name"]
+        icon = ICONS.get(name, DEFAULT_ICON)
+        desc = OVERRIDES.get(name) or r.get("description") or "—"
+        desc = desc.replace("|", "\\|")
+        lang = r["primaryLanguage"]["name"] if r.get("primaryLanguage") else "—"
+        lines.append(f"| {icon} [{name}]({r['url']}) | {desc} | `{lang}` |")
+    return "\n".join(lines)
+
+
+def update_readme(table):
+    with open("README.md", "r", encoding="utf-8") as f:
+        content = f.read()
+
+    pattern = r"(<!-- PINNED:START -->)(.*?)(<!-- PINNED:END -->)"
+    new_content, count = re.subn(
+        pattern,
+        lambda m: f"{m.group(1)}\n{table}\n{m.group(3)}",
+        content,
+        flags=re.DOTALL,
+    )
+
+    if count == 0:
+        sys.exit("PINNED markers not found in README.md")
+
+    if new_content != content:
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(new_content)
+        print("README.md updated")
+    else:
+        print("No changes")
+
+
+if __name__ == "__main__":
+    repos = fetch_pinned()
+    if not repos:
+        print("No pinned repos returned (token may lack access). Leaving README unchanged.")
+        sys.exit(0)
+    update_readme(build_table(repos))
