@@ -44,11 +44,11 @@
 <!-- PINNED:START -->
 | Project | What it does | Stack |
 |---|---|---|
-|  [mobile-price-prediction](https://github.com/shivansh-dhakad/mobile-price-prediction) | Predicts mobile phone price range from specs | `Jupyter Notebook` |
-| [Lumina](https://github.com/shivansh-dhakad/Lumina) | Fully local, private AI-powered study assistant — chat with any document or URL, no cloud, no API keys | `JavaScript` |
-|  [Krishimitra](https://github.com/shivansh-dhakad/Krishimitra) | KrishiMitra is an intelligent, multi-featured web platform designed to assist farmers in making data-driven agricultural decisions. It acts as a complete farming assistant that guides farmers from sowing to harvest, ensuring smarter decisions and better yields. | `HTML` |
-|  [ResQGrid](https://github.com/shivansh-dhakad/ResQGrid) | ResQGrid is a community-powered emergency response platform for India. It connects individuals, volunteers, NGOs, and community organizations on a shared map so that nearby emergencies, resources, and SOS alerts can be seen and acted on in real time. | `JavaScript` |
-|  [oil-spill-detection-and-vessel-identification](https://github.com/shivansh-dhakad/oil-spill-detection-and-vessel-identification) | AI-Powered Satellite Oil Spill Detection & Maritime Vessel Attribution Platform | `Python` |
+| 📱 [mobile-price-prediction](https://github.com/shivansh-dhakad/mobile-price-prediction) | Predicts mobile phone price range from specs | `Jupyter Notebook` |
+| 📚 [Lumina](https://github.com/shivansh-dhakad/Lumina) | Fully local, private AI-powered study assistant — chat with any document or URL, no cloud, no API keys | `JavaScript` |
+| 📦 [Krishimitra](https://github.com/shivansh-dhakad/Krishimitra) | KrishiMitra is an intelligent, multi-featured web platform designed to assist farmers in making data-driven agricultural decisions. It acts as a complete farming assistant that guides farmers from sowing to harvest, ensuring smarter decisions and better yields. | `HTML` |
+| 📦 [ResQGrid](https://github.com/shivansh-dhakad/ResQGrid) | ResQGrid is a community-powered emergency response platform for India. It connects individuals, volunteers, NGOs, and community organizations on a shared map so that nearby emergencies, resources, and SOS alerts can be seen and acted on in real time. | `JavaScript` |
+| 📦 [oil-spill-detection-and-vessel-identification](https://github.com/shivansh-dhakad/oil-spill-detection-and-vessel-identification) | AI-Powered Satellite Oil Spill Detection & Maritime Vessel Attribution Platform | `Python` |
 <!-- PINNED:END -->
 
 <br/>
